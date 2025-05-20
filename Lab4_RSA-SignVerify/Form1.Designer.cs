@@ -92,7 +92,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(22, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "e =";
+            this.label4.Text = "d =";
             // 
             // label5
             // 
@@ -101,7 +101,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(22, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "d =";
+            this.label5.Text = "c =";
             // 
             // label6
             // 
@@ -258,6 +258,7 @@
             this.button1.TabIndex = 24;
             this.button1.Text = "Сгенерировать";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -267,6 +268,7 @@
             this.button2.TabIndex = 25;
             this.button2.Text = "Подписать";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -276,6 +278,7 @@
             this.button3.TabIndex = 26;
             this.button3.Text = "Проверить";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -285,6 +288,7 @@
             this.button4.TabIndex = 27;
             this.button4.Text = "Очистить поля";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 

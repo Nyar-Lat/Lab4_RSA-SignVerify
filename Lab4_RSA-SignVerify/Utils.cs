@@ -5,6 +5,7 @@ using System.Numerics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Lab4_RSA_SignVerify
 {
@@ -228,6 +229,54 @@ namespace Lab4_RSA_SignVerify
                 if (IsPrimeM(n)) return n;
                 n += 2;
             }
+        }
+
+
+        public static string ComMD5(string input)
+        {
+            using (var md5 = MD5.Create())
+            {
+                byte[] hashBytes = md5.ComputeHash(Encoding.UTF8.GetBytes(input));
+                // Встроенный метод BitConverter преобразует байты в строку, но с дефолтными дефисами и заглавными буквами,
+                // поэтому используем ToLower и заменяем дефисы:
+                return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
+            }
+        }
+
+        public static BigInteger HexToBigInteger(string hex)
+        {
+            if (string.IsNullOrWhiteSpace(hex))
+                return BigInteger.Zero;
+
+            // Убираем префикс "0x"/"0X"
+            if (hex.StartsWith("0x", StringComparison.OrdinalIgnoreCase))
+                hex = hex.Substring(2);
+
+            // Делаем длину чётной, добавляя ведущий '0' при необходимости
+            if (hex.Length % 2 != 0)
+                hex = "0" + hex;
+
+            // Разбираем в массив байт big-endian
+            int byteCount = hex.Length / 2;
+            byte[] temp = new byte[byteCount];
+            for (int i = 0; i < byteCount; i++)
+            {
+                string byteHex = hex.Substring(i * 2, 2);
+                temp[i] = byte.Parse(byteHex, NumberStyles.HexNumber, CultureInfo.InvariantCulture);
+            }
+
+            // Переворачиваем в little-endian для конструктора BigInteger(byte[])
+            Array.Reverse(temp);
+
+            // Если старший бит (в последнем элементе little-endian массива) = 1,
+            // добавляем нулевой байт, чтобы число осталось положительным
+            if ((temp[temp.Length - 1] & 0x80) != 0)
+            {
+                Array.Resize(ref temp, temp.Length + 1);
+                temp[temp.Length - 1] = 0x00;
+            }
+
+            return new BigInteger(temp);
         }
 
     }
