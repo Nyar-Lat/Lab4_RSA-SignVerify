@@ -1,0 +1,10 @@
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\bin\Debug\Lab4_RSA-SignVerify.exe.config
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\bin\Debug\Lab4_RSA-SignVerify.exe
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\bin\Debug\Lab4_RSA-SignVerify.pdb
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\obj\Debug\Lab4_RSA-SignVerify.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\obj\Debug\Lab4_RSA_SignVerify.Properties.Resources.resources
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\obj\Debug\Lab4_RSA-SignVerify.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\obj\Debug\Lab4_RSA-SignVerify.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\obj\Debug\Lab4_RSA-SignVerify.exe
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\obj\Debug\Lab4_RSA-SignVerify.pdb
+C:\Users\pc\Desktop\8 Семестр\CryptoProtocols\Lab4_RSA-SignVerify\Lab4_RSA-SignVerify\obj\Debug\Lab4_RSA_SignVerify.Form1.resources
