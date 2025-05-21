@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|c:\\users\\pc\\desktop\\8 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\cryptoprotocols\\lab4_rsa-signverify\\lab4_rsa-signverify\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|solutionrelative:lab4_rsa-signverify\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|c:\\users\\pc\\desktop\\8 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\cryptoprotocols\\lab4_rsa-signverify\\lab4_rsa-signverify\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|solutionrelative:lab4_rsa-signverify\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\lab4_rsa-signverify\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|solutionrelative:lab4_rsa-signverify\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|c:\\users\\pc\\desktop\\8 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\cryptoprotocols\\lab4_rsa-signverify\\lab4_rsa-signverify\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B404C3EF-966A-450A-BA1F-AAD26472AA80}|Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify.csproj|solutionrelative:lab4_rsa-signverify\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,38 +50,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Utils.cs",
               "RelativeDocumentMoniker": "Lab4_RSA-SignVerify\\Utils.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Utils.cs",
-              "RelativeToolTip": "Lab4_RSA-SignVerify\\Utils.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAAwAYBAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Utils.cs*",
+              "RelativeToolTip": "Lab4_RSA-SignVerify\\Utils.cs*",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAQwI4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T09:13:35.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Form1.cs",
               "RelativeDocumentMoniker": "Lab4_RSA-SignVerify\\Form1.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Form1.cs*",
-              "RelativeToolTip": "Lab4_RSA-SignVerify\\Form1.cs*",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAIwIcAAAA6AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Form1.cs",
+              "RelativeToolTip": "Lab4_RSA-SignVerify\\Form1.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T04:23:28.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Form1.cs",
               "RelativeDocumentMoniker": "Lab4_RSA-SignVerify\\Form1.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "Lab4_RSA-SignVerify\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\CryptoProtocols\\Lab4_RSA-SignVerify\\Lab4_RSA-SignVerify\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Lab4_RSA-SignVerify\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T03:25:14.513Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"

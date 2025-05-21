@@ -98,7 +98,6 @@ namespace Lab4_RSA_SignVerify
             textBox5.Text = "";
             textBox6.Text = "";
             textBox7.Text = "";
-            textBox8.Text = "";
             textBox9.Text = "";
             textBox10.Text = "";
             textBox11.Text = "";
@@ -115,7 +114,6 @@ namespace Lab4_RSA_SignVerify
             {
                 string message = textBox7.Text;
                 textBox9.Text = ComMD5(message);
-                textBox8.Text = message;
 
                 BigInteger hashDecimal = HexToBigInteger(textBox9.Text);
                 textBox9.Text = hashDecimal.ToString();
@@ -131,25 +129,49 @@ namespace Lab4_RSA_SignVerify
         private void button3_Click(object sender, EventArgs e)
         {
             // Берём исходное сообщение из textBox26
-            string M = textBox8.Text;
+            string M = textBox7.Text;
 
-            // Считаем его MD5 и сразу выводим в textBox29
-            textBox11.Text = ComMD5(M);
+
 
             // Парсим подпись s из textBox28
             BigInteger s = BigInteger.Parse(textBox10.Text);
 
             // Парсим модуль n и открытый экспонент E
             BigInteger n = BigInteger.Parse(textBox4.Text);
-            BigInteger ee = BigInteger.Parse(textBox5.Text);
+            BigInteger d = BigInteger.Parse(textBox5.Text);
 
             // Преобразуем hex‑строку MD5‑хэша в BigInteger
-            BigInteger hashDecimal = HexToBigInteger(textBox11.Text);
+            BigInteger hashDecimal = HexToBigInteger(ComMD5(M));
             textBox11.Text = hashDecimal.ToString();  // обновляем textBox29, показывая десятичное значение хэша
 
             // Вычисляем w = s^E mod n
-            BigInteger w = StepenMod(s, ee, n);
+            BigInteger w = StepenMod(s, d, n);
             textBox12.Text = w.ToString();
+
+
+
+
+
+            string originalHash = textBox11.Text;    // Десятичный хэш MD5
+            string decryptedValue = textBox12.Text;  // Результат s^e mod n
+            if (originalHash == decryptedValue)
+            {
+                label18.Text = "Подпись верна ✅";
+                label18.ForeColor = Color.Green;
+            }
+            else
+            {
+                label18.Text = "Подпись не совпадает ❌";
+                label18.ForeColor = Color.Red;
+            }
+
+
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

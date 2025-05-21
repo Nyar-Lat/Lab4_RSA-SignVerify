@@ -145,15 +145,18 @@ namespace Lab4_RSA_SignVerify
             return result;
         }
 
-        public static bool IsPrime(BigInteger n)
+        public static bool IsPrime(BigInteger number)
         {
-            if (n < 2) return false;
-            if (n == 2 || n == 3) return true;
-            if (n % 2 == 0) return false;
+            if (number < 2) return false;    // 0 и 1 не простые
+            if (number == 2 || number == 3) return true;  // 2 и 3 простые
+            if (number % 2 == 0) return false;  // четные > 2 не простые
 
-            for (BigInteger i = 3; i * i <= n; i += 2)
+            BigInteger boundary = (BigInteger)Math.Floor(Math.Sqrt((double)number));
+
+            for (BigInteger i = 3; i <= boundary; i += 2)
             {
-                if (n % i == 0) return false;
+                if (number % i == 0)
+                    return false;
             }
             return true;
         }
